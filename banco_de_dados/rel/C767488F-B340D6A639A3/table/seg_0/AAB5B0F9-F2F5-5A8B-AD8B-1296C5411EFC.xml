@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAB5B0F9-F2F5-5A8B-AD8B-1296C5411EFC" name="Doados">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:04:41 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="doado_id" id="BA7E6377-867E-387E-1176-59D1890EBB8F">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>176FC1BC-4896-7B26-01FD-374D0753B892</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doado_dataAquisicao" id="C910C362-8E27-FBAB-ECF9-E71FE1DF4A4C">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>FF12D10F-7051-F6C8-1CC2-56851D6C4D0A</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doado_destinatario" id="FE55CB6A-5CC5-86EC-E0F2-2473B35820BD">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>100E910A-B935-2731-92C8-20A38AF868C4</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doado_tipo" id="B8BD1590-4105-7507-6D97-3EE4327F10D0">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[tipo de doação sendo ou para entrega, ou retirada
+]]></commentInRDBMS>
+<generatorID>557819F5-33E9-34F3-B02E-35765BFFDDBA</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doado_endereco" id="A5548257-2CE7-8E16-33AA-F400306FF7DB">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[endereço de onde deve ser doado, caso seja retirada, o endereço é null ou da igreja]]></commentInRDBMS>
+<generatorID>782CCF74-A778-8065-C11B-C70F826189D0</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A57D1379-EF3A-9C95-8202-AACF6A17C08C" name="Doados_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>B6269804-29A8-4EF1-F039-63DD6C9618B6</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA7E6377-867E-387E-1176-59D1890EBB8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

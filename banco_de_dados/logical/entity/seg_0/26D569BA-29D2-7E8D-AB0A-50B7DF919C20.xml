@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26D569BA-29D2-7E8D-AB0A-50B7DF919C20" name="Campanhas">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:06:25 UTC</createdTime>
+<generatorID>C9190B8C-12E7-59F2-28C1-EE8CA3BBD435</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Camp_id" id="D496DBEE-6541-0BCE-93A9-168AD846DFAD">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:18:42 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Camp_dataInicio" id="C8EB654A-EE8F-AE72-C400-A0701DFCEDB9">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:18:49 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Camp_dataFim" id="4D003865-7B7A-41FD-6A96-5968ED6841A2">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:19:00 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="camp_Responsavel" id="2C28388D-BB31-CEDC-F3E9-AC6581486852">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:19:07 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7BCD428-857B-3211-1BEB-F12904FD9546" name="Campanhas PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:18:48 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D496DBEE-6541-0BCE-93A9-168AD846DFAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

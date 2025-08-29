@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1C5D255-AECE-2A9F-69D5-1A87A9706763" containerWithKeyObject="8482F552-E5D0-EC8C-9D9B-48322812E4CA" localFKIndex="F22C4C5B-AA71-D2A3-72AD-F56BF0B9D0A2" name="Voluntario_Campanhas_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>B830EF06-72BC-42A7-AC27-7DF6403BDA68</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<referredTableLongName>Campanhas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9190B8C-12E7-59F2-28C1-EE8CA3BBD435</referredTableID>
+<keyObject>4C4BC734-CAA2-5226-E345-FDE7A645974C</keyObject>
+<referredKeyID>4C4BC734-CAA2-5226-E345-FDE7A645974C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Camp_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

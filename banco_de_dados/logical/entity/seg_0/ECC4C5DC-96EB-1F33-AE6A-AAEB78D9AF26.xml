@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECC4C5DC-96EB-1F33-AE6A-AAEB78D9AF26" name="Doados">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:06:25 UTC</createdTime>
+<generatorID>AAB5B0F9-F2F5-5A8B-AD8B-1296C5411EFC</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="doado_id" id="176FC1BC-4896-7B26-01FD-374D0753B892">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:16:41 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="doado_dataAquisicao" id="FF12D10F-7051-F6C8-1CC2-56851D6C4D0A">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:16:49 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doado_destinatario" id="100E910A-B935-2731-92C8-20A38AF868C4">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:16:56 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doado_tipo " id="557819F5-33E9-34F3-B02E-35765BFFDDBA">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:17:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[tipo de doação sendo ou para entrega, ou retirada
+]]></commentInRDBMS>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doado_endereco" id="782CCF74-A778-8065-C11B-C70F826189D0">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:17:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[endereço de onde deve ser doado, caso seja retirada, o endereço é null ou da igreja]]></commentInRDBMS>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6269804-29A8-4EF1-F039-63DD6C9618B6" name="Doado PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:16:48 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>176FC1BC-4896-7B26-01FD-374D0753B892</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

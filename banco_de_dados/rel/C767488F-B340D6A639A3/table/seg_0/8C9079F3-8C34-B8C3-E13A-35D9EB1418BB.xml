@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C9079F3-8C34-B8C3-E13A-35D9EB1418BB" name="Atualiza">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Doados_doado_id" id="D16F61FF-4D57-9DBC-A07E-84EB3EEA3B6D">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AFE7D41-CC8F-9363-2532-93699B9FF0D5" referredColumn="BA7E6377-867E-387E-1176-59D1890EBB8F"/>
+</associations>
+</Column>
+<Column name="Estoque_Est_id" id="B16C1BDE-5367-3F18-A103-6BF73CD80C1B">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A55F3C6-C510-5A63-633D-BE7382977971" referredColumn="97CC37D0-5E7F-B860-4523-CEB3371798B4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28FD7568-4954-E217-22AE-CF9E91EA9C89" name="Atualiza_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D16F61FF-4D57-9DBC-A07E-84EB3EEA3B6D"/>
+<colUsage columnID="B16C1BDE-5367-3F18-A103-6BF73CD80C1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE7FDC8A-D80D-D63D-783D-522241A421D9" name="Atualiza_Doados_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>7B52B251-82C6-E7A6-CB12-F15DA8AAFA0E</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D16F61FF-4D57-9DBC-A07E-84EB3EEA3B6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8147260-E616-BB05-71F9-2EAEE3AAFDC1" name="Atualiza_Estoque_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>7B52B251-82C6-E7A6-CB12-F15DA8AAFA0E</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B16C1BDE-5367-3F18-A103-6BF73CD80C1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

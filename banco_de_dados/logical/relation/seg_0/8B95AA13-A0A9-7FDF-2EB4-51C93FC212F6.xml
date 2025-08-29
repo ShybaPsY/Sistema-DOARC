@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contem" directorySegmentName="seg_0" id="8B95AA13-A0A9-7FDF-2EB4-51C93FC212F6">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:31:41 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<sourcePk>B9C89945-7708-241D-E0CA-28FE712DFB88</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F05BD443-8635-3CCB-ACA0-7D3CA3070BB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A350CEC8-760B-7354-3002-CA884817DD4C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

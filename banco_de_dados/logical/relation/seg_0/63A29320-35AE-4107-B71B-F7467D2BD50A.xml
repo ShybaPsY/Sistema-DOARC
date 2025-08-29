@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realize" directorySegmentName="seg_0" id="63A29320-35AE-4107-B71B-F7467D2BD50A">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:32:30 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<sourcePk>7DCFCA1D-1540-33ED-35B5-08E9ACB0C273</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88E31DB7-FFA5-760C-B354-71AD898176DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B57C9E37-C5E1-1A20-12E4-17A17C4A4F52</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

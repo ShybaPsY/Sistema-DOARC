@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6704983-930B-E1FC-6E3C-47B5508690E0" name="Doacao">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:04:02 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Doa_id" id="CF4831C7-EF72-4B38-4E1D-34066E2C0DBF">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>E903B121-FD7E-8ED4-587B-3609A0179BAE</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doa_Data" id="1D03FC90-82D5-EC9A-CED1-B277DB79A764">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>432F807D-A332-239C-AEA2-A51D6153906C</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doa_listaDoacao" id="1DBCB007-A91A-32F2-E1AF-2E4D705FE6DE">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>F42B3BD7-FDE8-647F-FD4D-5A5A1E7B84A5</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estoque_Est_id" id="EA42707B-BDCC-253E-97C1-24E62E162B05">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:32:39 UTC</createdTime>
+<generatorID>00CA8066-22B5-2695-6837-2BF10F413485</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D07AD03-EA14-0B78-FFB2-F720DE4B1578" referredColumn="97CC37D0-5E7F-B860-4523-CEB3371798B4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99381A85-9426-02EB-F735-45B1174EF1A4" name="Doacao_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>FD3A7300-0F47-6469-76D7-CEBF1203347A</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF4831C7-EF72-4B38-4E1D-34066E2C0DBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="105C308D-79AE-A131-E1A8-63DC2D373D8C" name="Doacao_Estoque_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:32:39 UTC</createdTime>
+<generatorID>63A29320-35AE-4107-B71B-F7467D2BD50A</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA42707B-BDCC-253E-97C1-24E62E162B05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

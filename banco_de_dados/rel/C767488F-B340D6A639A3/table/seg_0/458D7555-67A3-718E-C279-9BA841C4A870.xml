@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="458D7555-67A3-718E-C279-9BA841C4A870" name="Produto">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:05:06 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prod_id" id="5265B8F0-ECEF-2E03-5DF2-B262BE2DAF1E">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>25862DC7-B448-29C3-C02B-B5F5093D4D72</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prod_nome" id="6E6AD038-0D54-5A6D-5912-DA07D8858160">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>F173CFC0-A52A-2232-8AC0-6986D9EDBFCB</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prod_tipo" id="3257ECB2-FA1B-1F52-C7BD-449E1BCBFD55">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>E0B7F54D-631C-22B0-2624-9E027DEC01D4</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prod_dataAquisicao" id="0DFFE820-AA95-0FB9-EA65-218138D17EB4">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>B6D3405F-3728-CCB7-5F02-A87AAF23A31C</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prod_destinatario" id="9696CAA7-7D04-0BBD-7B0F-E37D2EF3156E">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>F3A2B2FD-2DB9-5403-BCEE-E9456E201FB9</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_Cat_id" id="F3E80907-2A9E-E490-1ACD-ADA6C85CB69C">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:32:39 UTC</createdTime>
+<generatorID>179A282A-97AB-21CB-5B64-254FBB07EA29</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B705089-2B77-5EA8-E052-070F5A7019CA" referredColumn="2E7E6DA5-6904-439F-3EFD-7A3755410727"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A63A0F4C-7F9C-CC47-5CB9-990A7457C101" name="Produto_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>538D9D2C-7DBF-0476-9AF6-CDE758C7F0CF</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5265B8F0-ECEF-2E03-5DF2-B262BE2DAF1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C28BBCCF-55A7-A039-349F-1AE1E94A2DEA" name="Produto_Categoria_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:32:39 UTC</createdTime>
+<generatorID>8B95AA13-A0A9-7FDF-2EB4-51C93FC212F6</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3E80907-2A9E-E490-1ACD-ADA6C85CB69C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

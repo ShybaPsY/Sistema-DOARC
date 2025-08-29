@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Agenda" directorySegmentName="seg_0" id="2695CA09-9B25-684F-4F0E-7453B5DA4F32">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:24:32 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A826E079-9843-8120-268F-ABC9F779FCA9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E6C4A0F-A706-F9C6-7857-6D3CB889FD88</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

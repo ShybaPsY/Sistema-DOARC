@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E70E702-56FC-B859-88EA-62466E17298C" containerWithKeyObject="8482F552-E5D0-EC8C-9D9B-48322812E4CA" localFKIndex="EC4F9E3F-BF58-9B41-F08D-4B8E132AA9A0" name="Voluntario_HIgienizacaoRoupas_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>2695CA09-9B25-684F-4F0E-7453B5DA4F32</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<referredTableLongName>HIgienizacaoRoupas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F409B157-B1C7-8828-A05C-BB0639F06B03</referredTableID>
+<keyObject>F45EF3E2-581D-C859-2303-A248FB8E54D7</keyObject>
+<referredKeyID>F45EF3E2-581D-C859-2303-A248FB8E54D7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>HIgienizacaoRoupas_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

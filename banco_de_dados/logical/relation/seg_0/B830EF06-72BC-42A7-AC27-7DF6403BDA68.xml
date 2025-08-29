@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RealizaCampanha" directorySegmentName="seg_0" id="B830EF06-72BC-42A7-AC27-7DF6403BDA68">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:23:46 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<sourcePk>D7BCD428-857B-3211-1BEB-F12904FD9546</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>26D569BA-29D2-7E8D-AB0A-50B7DF919C20</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E6C4A0F-A706-F9C6-7857-6D3CB889FD88</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

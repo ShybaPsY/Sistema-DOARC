@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79CB5BB4-42E1-FB0D-DEC1-815B9DDD4E4F" name="Produtos_doados">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Doados_doado_id" id="D91568B1-5A1C-B66E-70E2-6984ECE4B8F4">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="502F9D56-FE62-6CA5-119E-72F83FFBBBD7" referredColumn="BA7E6377-867E-387E-1176-59D1890EBB8F"/>
+</associations>
+</Column>
+<Column name="Produto_Prod_id" id="00C18E5A-9A4D-A3A0-0E07-EACA3F55A02A">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5295BC42-162E-1A34-EB7D-2CA18C10DE98" referredColumn="5265B8F0-ECEF-2E03-5DF2-B262BE2DAF1E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B979779-E8FC-D8E4-BADD-063958C453D5" name="Produtos_doados_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91568B1-5A1C-B66E-70E2-6984ECE4B8F4"/>
+<colUsage columnID="00C18E5A-9A4D-A3A0-0E07-EACA3F55A02A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="641EE075-4861-A03E-2310-F8C9A6743D6E" name="Produtos_doados_Doados_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>E0A706C5-7EA6-1197-07C5-60710833F102</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91568B1-5A1C-B66E-70E2-6984ECE4B8F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C060F93-155E-DF0C-B4F7-4A52ADED2638" name="Produtos_doados_Produto_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>E0A706C5-7EA6-1197-07C5-60710833F102</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C18E5A-9A4D-A3A0-0E07-EACA3F55A02A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

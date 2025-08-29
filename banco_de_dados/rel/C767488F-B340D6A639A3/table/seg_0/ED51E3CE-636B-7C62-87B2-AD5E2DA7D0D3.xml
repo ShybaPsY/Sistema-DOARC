@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED51E3CE-636B-7C62-87B2-AD5E2DA7D0D3" name="realiza">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Produto_Prod_id" id="ED9FC952-897C-93BB-FE2A-D111D929D012">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2986C136-2F8F-3C77-6DDE-4731B1FF0CEF" referredColumn="5265B8F0-ECEF-2E03-5DF2-B262BE2DAF1E"/>
+</associations>
+</Column>
+<Column name="Compra_Com_id" id="5182815F-3D32-1422-3D58-E3A69A912F5B">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D865809-225A-4272-095E-1A91E8BC6E0F" referredColumn="4360D7CE-564D-6C6F-9CA9-22021A930B7E"/>
+</associations>
+</Column>
+<Column name="Compra_Doacao_Doa_id" id="68AA4ABB-64A1-F274-73FB-BAB8F2D97F50">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D865809-225A-4272-095E-1A91E8BC6E0F" referredColumn="E51CC4B8-F7BD-5C5F-2082-8342089E96F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA318F18-13EB-C2FC-5DA4-3C0C9A8749D0" name="realiza_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED9FC952-897C-93BB-FE2A-D111D929D012"/>
+<colUsage columnID="5182815F-3D32-1422-3D58-E3A69A912F5B"/>
+<colUsage columnID="68AA4ABB-64A1-F274-73FB-BAB8F2D97F50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04B8FE79-E304-F322-0D02-8065974EF1B6" name="realiza_Produto_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>7EBDEB2C-D1ED-579A-ED78-2C9F0B293AEA</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED9FC952-897C-93BB-FE2A-D111D929D012"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0619A2AE-AE41-2739-80A2-1DF1633531B7" name="realiza_Compra_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>7EBDEB2C-D1ED-579A-ED78-2C9F0B293AEA</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5182815F-3D32-1422-3D58-E3A69A912F5B"/>
+<colUsage columnID="68AA4ABB-64A1-F274-73FB-BAB8F2D97F50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

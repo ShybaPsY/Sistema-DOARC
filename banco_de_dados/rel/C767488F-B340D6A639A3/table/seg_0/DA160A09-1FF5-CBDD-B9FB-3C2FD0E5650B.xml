@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA160A09-1FF5-CBDD-B9FB-3C2FD0E5650B" name="DoacaoProduto">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Produto_Prod_id" id="2BAB0862-2507-D68A-4287-684295F9CB79">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FB44F9B-6168-94CF-0CD9-56B6607FA268" referredColumn="5265B8F0-ECEF-2E03-5DF2-B262BE2DAF1E"/>
+</associations>
+</Column>
+<Column name="Doacao_Doa_id" id="3AF8F746-2E73-E91C-C422-FB2745C40718">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D63F296-1D27-FF1C-4F75-3DF61815A25A" referredColumn="CF4831C7-EF72-4B38-4E1D-34066E2C0DBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="196EF496-05EB-7058-DDD3-246FE90B22BD" name="DoacaoProduto_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BAB0862-2507-D68A-4287-684295F9CB79"/>
+<colUsage columnID="3AF8F746-2E73-E91C-C422-FB2745C40718"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14D95F08-CF72-3E8A-DD0B-3834A0C65A19" name="DoacaoProduto_Produto_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>7C7BE289-BA16-A286-43D9-830DBD9C4A63</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BAB0862-2507-D68A-4287-684295F9CB79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9755D827-61EF-5770-494D-2E58886C681C" name="DoacaoProduto_Doacao_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>7C7BE289-BA16-A286-43D9-830DBD9C4A63</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AF8F746-2E73-E91C-C422-FB2745C40718"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

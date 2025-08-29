@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Atualiza" directorySegmentName="seg_0" id="7B52B251-82C6-E7A6-CB12-F15DA8AAFA0E">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:26:49 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>ECC4C5DC-96EB-1F33-AE6A-AAEB78D9AF26</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88E31DB7-FFA5-760C-B354-71AD898176DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

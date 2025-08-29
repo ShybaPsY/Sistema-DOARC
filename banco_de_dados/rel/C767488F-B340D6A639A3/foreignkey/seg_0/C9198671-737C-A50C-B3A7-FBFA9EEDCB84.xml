@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9198671-737C-A50C-B3A7-FBFA9EEDCB84" containerWithKeyObject="5307D0B5-6992-878E-0714-2C714473EC3D" localFKIndex="631B1CAD-1800-A5EB-F454-1FD218CE0457" name="Verifica_Voluntario_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>764E5223-7F49-1053-BB61-A6A44EFF51AD</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<referredTableLongName>Voluntario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8482F552-E5D0-EC8C-9D9B-48322812E4CA</referredTableID>
+<keyObject>A5D87997-82CF-D02E-29A5-5F6AAC04BC80</keyObject>
+<referredKeyID>A5D87997-82CF-D02E-29A5-5F6AAC04BC80</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pes_nome</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

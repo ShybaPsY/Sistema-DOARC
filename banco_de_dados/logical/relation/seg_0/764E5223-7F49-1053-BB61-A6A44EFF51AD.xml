@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Verifica" directorySegmentName="seg_0" id="764E5223-7F49-1053-BB61-A6A44EFF51AD">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:24:09 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1E6C4A0F-A706-F9C6-7857-6D3CB889FD88</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4512A45B-AFF6-685E-F946-41F8AC4C0CDE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

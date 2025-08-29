@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B57C9E37-C5E1-1A20-12E4-17A17C4A4F52" name="Doacao">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:06:25 UTC</createdTime>
+<generatorID>D6704983-930B-E1FC-6E3C-47B5508690E0</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Doa_id" id="E903B121-FD7E-8ED4-587B-3609A0179BAE">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:15:28 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doa_Data" id="432F807D-A332-239C-AEA2-A51D6153906C">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:15:38 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doa_listaDoacao" id="F42B3BD7-FDE8-647F-FD4D-5A5A1E7B84A5">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:15:45 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Est_id" id="00CA8066-22B5-2695-6837-2BF10F413485">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:32:30 UTC</createdTime>
+<generatorID>63A29320-35AE-4107-B71B-F7467D2BD50A</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<referedAttribute>99BAAF1A-54D5-04ED-32D3-2F7E48E6C48E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD3A7300-0F47-6469-76D7-CEBF1203347A" name="Doacao PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:15:37 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E903B121-FD7E-8ED4-587B-3609A0179BAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

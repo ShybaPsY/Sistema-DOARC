@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62F3B268-B246-7DFE-AA86-993A1A4CD34D" name="Donatario">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:05:27 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pes_nome" id="8E4E5963-3A79-2F80-62CE-C4E189A57D09">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>20DCE07F-A34F-E062-E66D-E67535C6346E</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7455DC90-88C8-7250-9185-31E51E400E32" referredColumn="73EC0A21-8CBC-7101-E3E1-CA2927BAAD42"/>
+</associations>
+</Column>
+<Column name="Don_cod" id="DC4F193A-312E-2FC1-5477-489D00A08882">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>C5421A56-C42E-F056-EAC0-2B3160AB0EC3</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39467808-2880-2EA8-A11B-8C30940D05E3" name="Donatario_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>F88B06A7-3983-1562-0560-AAFE6AD906B4</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E4E5963-3A79-2F80-62CE-C4E189A57D09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13CED587-7A2A-1ABA-530C-E1EB3A2CFDA8" name="Donatario_PKv1">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>C2D4CE42-0EB1-CEEE-5BD3-B15E1F29D3B2</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC4F193A-312E-2FC1-5477-489D00A08882"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66363040-A0A2-6824-CDEE-7B9982F93643" name="Donatario_Pessoa_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>AEF22944-A78E-2F7E-D12E-ECD3700E2E04</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E4E5963-3A79-2F80-62CE-C4E189A57D09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

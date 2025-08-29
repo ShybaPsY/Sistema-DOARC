@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8482F552-E5D0-EC8C-9D9B-48322812E4CA" name="Voluntario">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-22 23:05:15 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pes_nome" id="5C8B182F-E125-4ECD-4D25-28E43F6BEA65">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>20DCE07F-A34F-E062-E66D-E67535C6346E</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A4DDA7E-F1E5-BADA-CDC5-9A3B7E0939D0" referredColumn="73EC0A21-8CBC-7101-E3E1-CA2927BAAD42"/>
+</associations>
+</Column>
+<Column name="vol_cod" id="4275D94E-7708-619D-5246-A8D72075DF08">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>D2B4E43B-670B-2C2E-E97D-6FEF6347DCAC</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Campanhas_Camp_id" id="1AB48B7D-A333-17C0-183A-0FE11C915DA8">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>739A8BF9-EE50-5E19-EABF-168BFBADF362</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1C5D255-AECE-2A9F-69D5-1A87A9706763" referredColumn="4C4DA226-B490-25D9-6054-60ADE439610F"/>
+</associations>
+</Column>
+<Column name="Doados_doado_id" id="BAA7D129-F328-84D4-4A3B-8BB7690E4C83">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>1DA6F450-0F97-7E8F-AA40-8A9BF5070E41</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FFAE6EF-2C54-F552-22B7-121A35BAC480" referredColumn="BA7E6377-867E-387E-1176-59D1890EBB8F"/>
+</associations>
+</Column>
+<Column name="Compra_Com_id" id="0BFBCC4E-EDA2-F7E4-6B17-03CF6BCF7CA6">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>BE18210F-D42B-38C8-4F16-E651A4B64B5F</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9171F105-A59B-4F05-AF6B-DECEFB9F3B4B" referredColumn="4360D7CE-564D-6C6F-9CA9-22021A930B7E"/>
+</associations>
+</Column>
+<Column name="Compra_Doacao_Doa_id" id="61D502DA-D13D-1C06-A046-88E67C2594F1">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>D4F765D3-A7ED-3526-E1E3-C720F64556E1</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9171F105-A59B-4F05-AF6B-DECEFB9F3B4B" referredColumn="E51CC4B8-F7BD-5C5F-2082-8342089E96F8"/>
+</associations>
+</Column>
+<Column name="HIgienizacaoRoupas_HIgienizacaoRoupas_ID" id="B3788D0B-2270-ABDA-FC50-12CF6629AA5D">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E70E702-56FC-B859-88EA-62466E17298C" referredColumn="F400AF61-F241-FA8F-58CE-73712C699DD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5D87997-82CF-D02E-29A5-5F6AAC04BC80" name="Voluntario_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>F88B06A7-3983-1562-0560-AAFE6AD906B4</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C8B182F-E125-4ECD-4D25-28E43F6BEA65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A191CD8B-C9D1-C6BA-8C8A-34C68A009BD7" name="Voluntario_PKv1">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>3DB7BAD7-FF1E-6D2D-368D-AA457B47278C</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4275D94E-7708-619D-5246-A8D72075DF08"/>
+<colUsage columnID="1AB48B7D-A333-17C0-183A-0FE11C915DA8"/>
+<colUsage columnID="BAA7D129-F328-84D4-4A3B-8BB7690E4C83"/>
+<colUsage columnID="0BFBCC4E-EDA2-F7E4-6B17-03CF6BCF7CA6"/>
+<colUsage columnID="61D502DA-D13D-1C06-A046-88E67C2594F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1CC6E0E-4E6C-D824-66DF-E409EBDA116A" name="Voluntario_Pessoa_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>9EF24CFA-36A0-4223-FC55-0C2081F479E1</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C8B182F-E125-4ECD-4D25-28E43F6BEA65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC4F9E3F-BF58-9B41-F08D-4B8E132AA9A0" name="Voluntario_HIgienizacaoRoupas_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>2695CA09-9B25-684F-4F0E-7453B5DA4F32</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3788D0B-2270-ABDA-FC50-12CF6629AA5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79838FF2-FFBC-3B21-D6C0-3CCC27C790A8" name="Voluntario_Doados_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>A38C3464-CE9F-0738-2646-23EB0674AB20</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA7D129-F328-84D4-4A3B-8BB7690E4C83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F22C4C5B-AA71-D2A3-72AD-F56BF0B9D0A2" name="Voluntario_Campanhas_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>B830EF06-72BC-42A7-AC27-7DF6403BDA68</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AB48B7D-A333-17C0-183A-0FE11C915DA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="071EA8CE-77C7-F672-7B4B-082AEFE207DA" name="Voluntario_Compra_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<generatorID>95C90A87-65EA-D3B2-244E-6BD7171C9220</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BFBCC4E-EDA2-F7E4-6B17-03CF6BCF7CA6"/>
+<colUsage columnID="61D502DA-D13D-1C06-A046-88E67C2594F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Armazena" directorySegmentName="seg_0" id="5DD742AC-DD79-5C66-C943-C966BEBD3E48">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:25:40 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<sourcePk>FD3A7300-0F47-6469-76D7-CEBF1203347A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B57C9E37-C5E1-1A20-12E4-17A17C4A4F52</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>658EA9E2-B458-29FA-F734-DF163BB8FBB4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

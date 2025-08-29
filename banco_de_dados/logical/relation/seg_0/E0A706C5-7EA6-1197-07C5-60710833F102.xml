@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Produtos_doados" directorySegmentName="seg_0" id="E0A706C5-7EA6-1197-07C5-60710833F102">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:27:28 UTC</createdTime>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>ECC4C5DC-96EB-1F33-AE6A-AAEB78D9AF26</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A350CEC8-760B-7354-3002-CA884817DD4C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

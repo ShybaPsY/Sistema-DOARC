@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D07AD03-EA14-0B78-FFB2-F720DE4B1578" containerWithKeyObject="D6704983-930B-E1FC-6E3C-47B5508690E0" localFKIndex="105C308D-79AE-A131-E1A8-63DC2D373D8C" name="Doacao_Estoque_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-08-29 22:32:39 UTC</createdTime>
+<generatorID>63A29320-35AE-4107-B71B-F7467D2BD50A</generatorID>
+<ownerDesignName>banco, fazer</ownerDesignName>
+<referredTableLongName>Estoque</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1DF09631-275C-B197-CBF1-7AC81B82B984</referredTableID>
+<keyObject>E1EA19FC-DE36-9825-BDED-7B0776EAFCF2</keyObject>
+<referredKeyID>E1EA19FC-DE36-9825-BDED-7B0776EAFCF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Est_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
