@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90284007-0B67-96E9-D9AE-9704621EE96D" name="Categoria">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:05:09 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <ordsAlias>table_6</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -12,10 +12,10 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>742707DD-A8E0-1C2E-70DB-0F817363D578</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -23,7 +23,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>0766F34B-EB23-E39E-3011-94610029EADA</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,7 +36,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>BC87B458-C323-7C1F-9679-B90486CB1FA3</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,7 +50,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>B9C89945-7708-241D-E0CA-28FE712DFB88</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

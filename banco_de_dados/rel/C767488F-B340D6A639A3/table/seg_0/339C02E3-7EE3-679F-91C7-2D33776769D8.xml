@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="339C02E3-7EE3-679F-91C7-2D33776769D8" name="Login">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>2C6D2C5F-9BAC-E149-5A1B-167880750777</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Log_id" id="8C1BB40D-AC4E-FEBA-CDF2-5FD0531AEBBD">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>3A58514C-E94D-3307-B884-12853AF2FF9E</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Log_login" id="3505E0B6-8475-4A85-C44F-2BF57FED25F5">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>D2469E4B-E0DD-06D9-19CC-22F47F54427C</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Log_senha" id="DDEC2048-DDC6-3CE0-9D88-AF0CBDDC06C1">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>8D6BAD9B-0BA1-8BD7-6E52-5638FF14AE5B</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Voluntario_vol_cod" id="A8728BDF-A2B7-3954-4772-CD1C91B7055A">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>7D5A31AB-2437-CD6D-A0C3-E004A5264EFC</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="4275D94E-7708-619D-5246-A8D72075DF08"/>
+</associations>
+</Column>
+<Column name="Voluntario_Campanhas_Camp_id" id="A32DF0CF-DD5C-65FA-1C7E-ABE665EDF4F3">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>D4685D19-A74A-69DD-DB31-7FE12C6BED15</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="1AB48B7D-A333-17C0-183A-0FE11C915DA8"/>
+</associations>
+</Column>
+<Column name="Voluntario_Doados_doado_id" id="180BDCAF-BC71-979C-B103-24980E797F55">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>6728CC50-9A0F-31DD-FF7E-56EB23EC85D4</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="BAA7D129-F328-84D4-4A3B-8BB7690E4C83"/>
+</associations>
+</Column>
+<Column name="Voluntario_Compra_Com_id" id="93BE5418-8B9F-40D2-41C2-6B409FE212C1">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>DDC12C25-02FF-EA75-44C2-CB78E25FEA09</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="0BFBCC4E-EDA2-F7E4-6B17-03CF6BCF7CA6"/>
+</associations>
+</Column>
+<Column name="Voluntario_Compra_Doacao_Doa_id" id="96F036C2-080F-F51F-51D9-17A2B7FD7DE3">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>60550C8F-470F-1E2A-1A37-7585EF4491AE</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="61D502DA-D13D-1C06-A046-88E67C2594F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A30AD9C2-2657-7068-7ED6-718390805D30" name="Login_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>8C7F41D7-BB2A-EEFE-1C12-D06DA6814B63</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C1BB40D-AC4E-FEBA-CDF2-5FD0531AEBBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="447E0C5F-6FC6-26CF-7404-097A88605314" name="Login__IDX">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A8728BDF-A2B7-3954-4772-CD1C91B7055A"/>
+<colUsage columnID="A32DF0CF-DD5C-65FA-1C7E-ABE665EDF4F3"/>
+<colUsage columnID="180BDCAF-BC71-979C-B103-24980E797F55"/>
+<colUsage columnID="93BE5418-8B9F-40D2-41C2-6B409FE212C1"/>
+<colUsage columnID="96F036C2-080F-F51F-51D9-17A2B7FD7DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="632C1AF3-1962-B87D-F630-1441B66344C4" name="Login_Voluntario_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:15:36 UTC</createdTime>
+<generatorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8728BDF-A2B7-3954-4772-CD1C91B7055A"/>
+<colUsage columnID="A32DF0CF-DD5C-65FA-1C7E-ABE665EDF4F3"/>
+<colUsage columnID="180BDCAF-BC71-979C-B103-24980E797F55"/>
+<colUsage columnID="93BE5418-8B9F-40D2-41C2-6B409FE212C1"/>
+<colUsage columnID="96F036C2-080F-F51F-51D9-17A2B7FD7DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6704983-930B-E1FC-6E3C-47B5508690E0" name="Doacao">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:04:02 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <ordsAlias>table_1</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -12,10 +12,10 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>E903B121-FD7E-8ED4-587B-3609A0179BAE</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -23,7 +23,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>432F807D-A332-239C-AEA2-A51D6153906C</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,23 +35,23 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>F42B3BD7-FDE8-647F-FD4D-5A5A1E7B84A5</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Estoque_Est_id" id="EA42707B-BDCC-253E-97C1-24E62E162B05">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:32:39 UTC</createdTime>
 <generatorID>00CA8066-22B5-2695-6837-2BF10F413485</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -65,7 +65,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>FD3A7300-0F47-6469-76D7-CEBF1203347A</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -77,7 +77,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:32:39 UTC</createdTime>
 <generatorID>63A29320-35AE-4107-B71B-F7467D2BD50A</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="logiin" directorySegmentName="seg_0" id="C8834DB3-A709-0CF5-FDE8-3D38769D7B98">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:13:16 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<sourcePk>3DB7BAD7-FF1E-6D2D-368D-AA457B47278C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1E6C4A0F-A706-F9C6-7857-6D3CB889FD88</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2C6D2C5F-9BAC-E149-5A1B-167880750777</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

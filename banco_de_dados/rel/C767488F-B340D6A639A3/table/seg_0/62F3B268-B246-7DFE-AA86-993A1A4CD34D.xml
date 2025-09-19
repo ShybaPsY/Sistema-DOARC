@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62F3B268-B246-7DFE-AA86-993A1A4CD34D" name="Donatario">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:05:27 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <ordsAlias>table_9</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -12,7 +12,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>20DCE07F-A34F-E062-E66D-E67535C6346E</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -27,7 +27,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>C5421A56-C42E-F056-EAC0-2B3160AB0EC3</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,7 +41,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>F88B06A7-3983-1562-0560-AAFE6AD906B4</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -53,7 +53,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>C2D4CE42-0EB1-CEEE-5BD3-B15E1F29D3B2</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -64,7 +64,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>AEF22944-A78E-2F7E-D12E-ECD3700E2E04</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

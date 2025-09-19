@@ -3,7 +3,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>BA0B513C-E023-F8FF-F6D3-3728696A438C</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,7 +12,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>20DCE07F-A34F-E062-E66D-E67535C6346E</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -24,7 +24,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>7C10B4E4-DE90-0B0F-4C11-282B909391FB</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -35,7 +35,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>A502CE60-1634-4667-ED75-2ABC3D6608F4</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,7 +49,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>F88B06A7-3983-1562-0560-AAFE6AD906B4</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

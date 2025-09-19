@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="458D7555-67A3-718E-C279-9BA841C4A870" name="Produto">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:05:06 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <ordsAlias>table_5</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -12,10 +12,10 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>25862DC7-B448-29C3-C02B-B5F5093D4D72</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -23,7 +23,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>F173CFC0-A52A-2232-8AC0-6986D9EDBFCB</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -35,20 +35,20 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>E0B7F54D-631C-22B0-2624-9E027DEC01D4</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Prod_dataAquisicao" id="0DFFE820-AA95-0FB9-EA65-218138D17EB4">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>B6D3405F-3728-CCB7-5F02-A87AAF23A31C</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,22 +60,23 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>F3A2B2FD-2DB9-5403-BCEE-E9456E201FB9</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Categoria_Cat_id" id="F3E80907-2A9E-E490-1ACD-ADA6C85CB69C">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:32:39 UTC</createdTime>
 <generatorID>179A282A-97AB-21CB-5B64-254FBB07EA29</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -89,7 +90,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>538D9D2C-7DBF-0476-9AF6-CDE758C7F0CF</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -101,7 +102,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:32:39 UTC</createdTime>
 <generatorID>8B95AA13-A0A9-7FDF-2EB4-51C93FC212F6</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

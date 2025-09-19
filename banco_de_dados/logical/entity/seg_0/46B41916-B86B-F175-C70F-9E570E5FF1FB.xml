@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46B41916-B86B-F175-C70F-9E570E5FF1FB" name="Parametrizacao">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:13:32 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="para_nome" id="6A7599B2-69D5-68BF-25D3-8B9692E74DE7">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:13:40 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para_desc" id="C55260DD-D3B0-C64E-DD11-943BC9797479">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:13:49 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para_endereco" id="5E76E582-ABC0-B1EA-CFC2-EE9FD711E478">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:14:32 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para_info_gerais" id="AAE52625-00B4-272D-BCE2-3436074B4519">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:14:52 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
