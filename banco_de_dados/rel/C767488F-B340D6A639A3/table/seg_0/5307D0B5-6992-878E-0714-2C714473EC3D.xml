@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5307D0B5-6992-878E-0714-2C714473EC3D" name="Verifica">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -10,12 +10,12 @@
 <Column name="Voluntario_Pes_nome" id="9D90E1F5-703D-B970-3D60-6840BA38CBBC">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -25,7 +25,108 @@
 <Column name="Donatario_Pes_nome" id="31BC3A33-07E7-15F3-40BD-BA269C4ED9DF">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC3F59B3-2132-A58C-8FBA-5D9957B0004B" referredColumn="8E4E5963-3A79-2F80-62CE-C4E189A57D09"/>
+</associations>
+</Column>
+<Column name="Voluntario_vol_cod" id="C8D482CE-34A0-F9A8-5DE9-5FD7657467D6">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:06:46 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41718F53-CCAA-E301-3D6C-F662D8305EC7" referredColumn="4275D94E-7708-619D-5246-A8D72075DF08"/>
+</associations>
+</Column>
+<Column name="Voluntario_Campanhas_Camp_id" id="143132DE-413F-1A0D-11C0-996502F7BEDF">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:06:46 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Voluntario_Doados_doado_id" id="4C8ECE97-A23C-B18E-1BB8-D5E67C5A7973">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:06:46 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Voluntario_Compra_Com_id" id="A36F83BF-2FF7-B004-8585-99ED97FE1F1D">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:06:46 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Voluntario_Compra_Doacao_Doa_id" id="F3FA567E-C1B0-D9EF-2B21-45968B9D3A33">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:06:46 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Voluntario_Login_Log_id" id="FDDEF4F7-ECE6-5B96-812F-5EC512AD8257">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:13:12 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Voluntario_Login_Log_id1" id="169EBD76-2193-D1A7-861A-62A5CC76834E">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41718F53-CCAA-E301-3D6C-F662D8305EC7" referredColumn="3D74E1E4-B891-F5A1-E206-41619EFBACFB"/>
+</associations>
+</Column>
+<Column name="Voluntario_Pessoa_Pes_nome1" id="69C85A44-6BBA-1A75-8199-91A1EEF16D4A">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -34,7 +135,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="DC3F59B3-2132-A58C-8FBA-5D9957B0004B" referredColumn="8E4E5963-3A79-2F80-62CE-C4E189A57D09"/>
+<colAssociation fkAssociation="41718F53-CCAA-E301-3D6C-F662D8305EC7" referredColumn="618536AC-53D0-2DCD-1304-D9A7E090B0FC"/>
 </associations>
 </Column>
 </columns>
@@ -42,20 +143,28 @@
 <ind_PK_UK id="E57A10BB-95CA-6614-A1AF-35D2E833D322" name="Verifica_PK">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9D90E1F5-703D-B970-3D60-6840BA38CBBC"/>
 <colUsage columnID="31BC3A33-07E7-15F3-40BD-BA269C4ED9DF"/>
+<colUsage columnID="C8D482CE-34A0-F9A8-5DE9-5FD7657467D6"/>
+<colUsage columnID="143132DE-413F-1A0D-11C0-996502F7BEDF"/>
+<colUsage columnID="4C8ECE97-A23C-B18E-1BB8-D5E67C5A7973"/>
+<colUsage columnID="A36F83BF-2FF7-B004-8585-99ED97FE1F1D"/>
+<colUsage columnID="F3FA567E-C1B0-D9EF-2B21-45968B9D3A33"/>
+<colUsage columnID="FDDEF4F7-ECE6-5B96-812F-5EC512AD8257"/>
+<colUsage columnID="169EBD76-2193-D1A7-861A-62A5CC76834E"/>
+<colUsage columnID="69C85A44-6BBA-1A75-8199-91A1EEF16D4A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="631B1CAD-1800-A5EB-F454-1FD218CE0457" name="Verifica_Voluntario_FK">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>764E5223-7F49-1053-BB61-A6A44EFF51AD</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -66,11 +175,24 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>764E5223-7F49-1053-BB61-A6A44EFF51AD</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="31BC3A33-07E7-15F3-40BD-BA269C4ED9DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CD4ABDC-6E08-870D-806C-EAF248B06A5E" name="Verifica_Voluntario_FKv1">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:06:46 UTC</createdTime>
+<generatorID>764E5223-7F49-1053-BB61-A6A44EFF51AD</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8D482CE-34A0-F9A8-5DE9-5FD7657467D6"/>
+<colUsage columnID="169EBD76-2193-D1A7-861A-62A5CC76834E"/>
+<colUsage columnID="69C85A44-6BBA-1A75-8199-91A1EEF16D4A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

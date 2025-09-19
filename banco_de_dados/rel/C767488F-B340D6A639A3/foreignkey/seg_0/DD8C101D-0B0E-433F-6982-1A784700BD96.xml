@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD8C101D-0B0E-433F-6982-1A784700BD96" containerWithKeyObject="8482F552-E5D0-EC8C-9D9B-48322812E4CA" localFKIndex="567C5FF0-EDC6-0C9D-3EED-0E5B42D0C41B" name="Voluntario_Login_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
+<generatorID>7471B5AA-643A-B2D5-1A7A-1B0A5D4FFBB0</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<referredTableLongName>Login</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>339C02E3-7EE3-679F-91C7-2D33776769D8</referredTableID>
+<keyObject>A30AD9C2-2657-7068-7ED6-718390805D30</keyObject>
+<referredKeyID>A30AD9C2-2657-7068-7ED6-718390805D30</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Log_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

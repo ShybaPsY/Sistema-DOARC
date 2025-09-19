@@ -42,10 +42,10 @@
 <ownDataTypeParameters>12,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Voluntario_vol_cod" id="A8728BDF-A2B7-3954-4772-CD1C91B7055A">
+<Column name="Voluntario_vol_cod" id="3875AA7F-5824-17AF-EA63-7D5E6B032FFD">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:15:36 UTC</createdTime>
-<generatorID>7D5A31AB-2437-CD6D-A0C3-E004A5264EFC</generatorID>
+<createdTime>2025-09-19 23:08:52 UTC</createdTime>
+<generatorID>E44C3049-9AD6-A99C-4717-D29E116DA291</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,63 +54,70 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="4275D94E-7708-619D-5246-A8D72075DF08"/>
+<colAssociation fkAssociation="778C77A9-0540-96DC-4EF1-F71B04615FC5" referredColumn="4275D94E-7708-619D-5246-A8D72075DF08"/>
 </associations>
 </Column>
-<Column name="Voluntario_Campanhas_Camp_id" id="A32DF0CF-DD5C-65FA-1C7E-ABE665EDF4F3">
+<Column name="log_nivel" id="ADE72C4D-A2F2-EC71-E156-CC52448A7871">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:15:36 UTC</createdTime>
-<generatorID>D4685D19-A74A-69DD-DB31-7FE12C6BED15</generatorID>
+<createdTime>2025-09-19 23:12:21 UTC</createdTime>
+<generatorID>CE74C71F-FE8F-E41B-53C3-347F29247839</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="log_status" id="B844D978-3F50-8C91-54AD-3D377596C00B">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:13:12 UTC</createdTime>
+<generatorID>2F29351D-FFFA-D66F-33A0-8054B0CD98E0</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vol_cod" id="DB1E0D68-52CF-DED9-6C2A-37AE38EBB107">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
+<generatorID>D04A6C16-FAB1-07B1-AF0D-FD2B9D8ABF7D</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Log_id1" id="36B89795-7510-1993-C5F5-978E6844E897">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
+<generatorID>695BFB1C-C9E6-6706-DADC-BC4EAF82994F</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="1AB48B7D-A333-17C0-183A-0FE11C915DA8"/>
+<colAssociation fkAssociation="778C77A9-0540-96DC-4EF1-F71B04615FC5" referredColumn="3D74E1E4-B891-F5A1-E206-41619EFBACFB"/>
 </associations>
 </Column>
-<Column name="Voluntario_Doados_doado_id" id="180BDCAF-BC71-979C-B103-24980E797F55">
+<Column name="Pes_nome1" id="E8AE967F-1696-0D77-6FF1-2C06AF4AA2FF">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:15:36 UTC</createdTime>
-<generatorID>6728CC50-9A0F-31DD-FF7E-56EB23EC85D4</generatorID>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
+<generatorID>FD6B55E7-5B48-FAA7-2DDE-53D106C0AE6E</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="BAA7D129-F328-84D4-4A3B-8BB7690E4C83"/>
-</associations>
-</Column>
-<Column name="Voluntario_Compra_Com_id" id="93BE5418-8B9F-40D2-41C2-6B409FE212C1">
-<createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:15:36 UTC</createdTime>
-<generatorID>DDC12C25-02FF-EA75-44C2-CB78E25FEA09</generatorID>
-<ownerDesignName>banco_de_dados</ownerDesignName>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="0BFBCC4E-EDA2-F7E4-6B17-03CF6BCF7CA6"/>
-</associations>
-</Column>
-<Column name="Voluntario_Compra_Doacao_Doa_id" id="96F036C2-080F-F51F-51D9-17A2B7FD7DE3">
-<createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:15:36 UTC</createdTime>
-<generatorID>60550C8F-470F-1E2A-1A37-7585EF4491AE</generatorID>
-<ownerDesignName>banco_de_dados</ownerDesignName>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" referredColumn="61D502DA-D13D-1C06-A046-88E67C2594F1"/>
+<colAssociation fkAssociation="778C77A9-0540-96DC-4EF1-F71B04615FC5" referredColumn="618536AC-53D0-2DCD-1304-D9A7E090B0FC"/>
 </associations>
 </Column>
 </columns>
@@ -134,27 +141,42 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="60570225-DB34-0F53-09D3-073847AF3316" name="Login__IDXv1">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:08:52 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A041A6EF-B0C5-B5C4-46D7-32C99E179513</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="A8728BDF-A2B7-3954-4772-CD1C91B7055A"/>
-<colUsage columnID="A32DF0CF-DD5C-65FA-1C7E-ABE665EDF4F3"/>
-<colUsage columnID="180BDCAF-BC71-979C-B103-24980E797F55"/>
-<colUsage columnID="93BE5418-8B9F-40D2-41C2-6B409FE212C1"/>
-<colUsage columnID="96F036C2-080F-F51F-51D9-17A2B7FD7DE3"/>
+<colUsage columnID="3875AA7F-5824-17AF-EA63-7D5E6B032FFD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="632C1AF3-1962-B87D-F630-1441B66344C4" name="Login_Voluntario_FK">
+<ind_PK_UK id="D39F8CE1-D830-78AF-96D1-CC05BB5E661B" name="Login__IDX">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:15:36 UTC</createdTime>
-<generatorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</generatorID>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>00E15662-26CD-D3FF-4032-784AED8F0CD2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3875AA7F-5824-17AF-EA63-7D5E6B032FFD"/>
+<colUsage columnID="36B89795-7510-1993-C5F5-978E6844E897"/>
+<colUsage columnID="E8AE967F-1696-0D77-6FF1-2C06AF4AA2FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6AF35CF-7BD6-83D5-BDB7-7866D19ACB87" name="Login_Voluntario_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:08:52 UTC</createdTime>
+<generatorID>A041A6EF-B0C5-B5C4-46D7-32C99E179513</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A8728BDF-A2B7-3954-4772-CD1C91B7055A"/>
-<colUsage columnID="A32DF0CF-DD5C-65FA-1C7E-ABE665EDF4F3"/>
-<colUsage columnID="180BDCAF-BC71-979C-B103-24980E797F55"/>
-<colUsage columnID="93BE5418-8B9F-40D2-41C2-6B409FE212C1"/>
-<colUsage columnID="96F036C2-080F-F51F-51D9-17A2B7FD7DE3"/>
+<colUsage columnID="3875AA7F-5824-17AF-EA63-7D5E6B032FFD"/>
+<colUsage columnID="36B89795-7510-1993-C5F5-978E6844E897"/>
+<colUsage columnID="E8AE967F-1696-0D77-6FF1-2C06AF4AA2FF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

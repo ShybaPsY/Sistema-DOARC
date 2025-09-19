@@ -12,7 +12,6 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>BA0B513C-E023-F8FF-F6D3-3728696A438C</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
@@ -25,13 +24,12 @@
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Camp_id" id="739A8BF9-EE50-5E19-EABF-168BFBADF362">
+<Attribute name="Campanhas Camp id" id="739A8BF9-EE50-5E19-EABF-168BFBADF362">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:23:46 UTC</createdTime>
 <generatorID>B830EF06-72BC-42A7-AC27-7DF6403BDA68</generatorID>
@@ -40,10 +38,12 @@
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <referedAttribute>D496DBEE-6541-0BCE-93A9-168AD846DFAD</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="doado_id" id="1DA6F450-0F97-7E8F-AA40-8A9BF5070E41">
+<Attribute name="Doados doado id" id="1DA6F450-0F97-7E8F-AA40-8A9BF5070E41">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:24:53 UTC</createdTime>
 <generatorID>A38C3464-CE9F-0738-2646-23EB0674AB20</generatorID>
@@ -52,10 +52,12 @@
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <referedAttribute>176FC1BC-4896-7B26-01FD-374D0753B892</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Com_id" id="BE18210F-D42B-38C8-4F16-E651A4B64B5F">
+<Attribute name="Compra Com id" id="BE18210F-D42B-38C8-4F16-E651A4B64B5F">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:25:14 UTC</createdTime>
 <generatorID>95C90A87-65EA-D3B2-244E-6BD7171C9220</generatorID>
@@ -64,10 +66,12 @@
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <referedAttribute>AB120F2F-1A30-C8AC-6B67-ED60999591A6</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Doa_id" id="D4F765D3-A7ED-3526-E1E3-C720F64556E1">
+<Attribute name="Compra Doacao Doa id" id="D4F765D3-A7ED-3526-E1E3-C720F64556E1">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:25:40 UTC</createdTime>
 <generatorID>95C90A87-65EA-D3B2-244E-6BD7171C9220</generatorID>
@@ -76,12 +80,70 @@
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <referedAttribute>0E44AAD1-BC1F-E50B-2FC6-F900422BBCFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pes nome" id="A148447F-D317-038D-5872-5D797DFC1F47">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:08:02 UTC</createdTime>
+<generatorID>83DF57C7-923D-A873-60BB-541A6CA3E869</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<referedAttribute>20DCE07F-A34F-E062-E66D-E67535C6346E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Log id" id="0A0A2DB1-A4CD-13E4-2FC8-B0BAFE49F478">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:13:08 UTC</createdTime>
+<generatorID>7471B5AA-643A-B2D5-1A7A-1B0A5D4FFBB0</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<referedAttribute>3A58514C-E94D-3307-B884-12853AF2FF9E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Column 9" id="7E2BE2DE-DF10-73E5-408D-A10EB0DFC677">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:17:53 UTC</createdTime>
+<generatorID>ED953B3C-79A6-FD18-9B12-3A5F828EB49B</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pes nome1" id="BA4E9B35-1E7D-8F28-B46C-DF7D7F8B537E">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:18:01 UTC</createdTime>
+<generatorID>E490053C-9DD1-309A-06B2-BD37E4A02D51</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<referedAttribute>20DCE07F-A34F-E062-E66D-E67535C6346E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3DB7BAD7-FF1E-6D2D-368D-AA457B47278C" name="Voluntario PK">
+<identifier id="3DB7BAD7-FF1E-6D2D-368D-AA457B47278C" name="Voluntario_PKv1">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:10:15 UTC</createdTime>
 <generatorID>7B2C02ED-9822-274A-9DC7-A2895AA11E66</generatorID>
@@ -92,10 +154,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>D2B4E43B-670B-2C2E-E97D-6FEF6347DCAC</attributeRef>
-<attributeRef>739A8BF9-EE50-5E19-EABF-168BFBADF362</attributeRef>
-<attributeRef>1DA6F450-0F97-7E8F-AA40-8A9BF5070E41</attributeRef>
-<attributeRef>BE18210F-D42B-38C8-4F16-E651A4B64B5F</attributeRef>
-<attributeRef>D4F765D3-A7ED-3526-E1E3-C720F64556E1</attributeRef>
+<attributeRef>0A0A2DB1-A4CD-13E4-2FC8-B0BAFE49F478</attributeRef>
+<attributeRef>BA4E9B35-1E7D-8F28-B46C-DF7D7F8B537E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

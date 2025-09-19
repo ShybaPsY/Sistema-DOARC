@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59CC33F5-F02D-6E24-5D23-AE7F281C1D44" containerWithKeyObject="339C02E3-7EE3-679F-91C7-2D33776769D8" localFKIndex="632C1AF3-1962-B87D-F630-1441B66344C4" name="Login_Voluntario_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="41718F53-CCAA-E301-3D6C-F662D8305EC7" containerWithKeyObject="5307D0B5-6992-878E-0714-2C714473EC3D" localFKIndex="0CD4ABDC-6E08-870D-806C-EAF248B06A5E" name="Verifica_Voluntario_FKv1">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:15:36 UTC</createdTime>
-<generatorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</generatorID>
+<createdTime>2025-09-19 23:06:46 UTC</createdTime>
+<generatorID>764E5223-7F49-1053-BB61-A6A44EFF51AD</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <referredTableLongName>Voluntario</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
@@ -10,7 +10,7 @@
 <keyObject>A191CD8B-C9D1-C6BA-8C8A-34C68A009BD7</keyObject>
 <referredKeyID>A191CD8B-C9D1-C6BA-8C8A-34C68A009BD7</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>vol_cod,Campanhas_Camp_id,Doados_doado_id,Compra_Com_id,Compra_Doacao_Doa_id</refColNames>
+<refColNames>vol_cod,Login_Log_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

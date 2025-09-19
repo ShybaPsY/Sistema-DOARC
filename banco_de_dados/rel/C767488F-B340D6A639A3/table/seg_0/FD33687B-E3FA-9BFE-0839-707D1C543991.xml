@@ -48,6 +48,7 @@
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>0E44AAD1-BC1F-E50B-2FC6-F900422BBCFA</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

@@ -1,13 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registra" directorySegmentName="seg_0" id="95C90A87-65EA-D3B2-244E-6BD7171C9220">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Voluntario Compra FK" directorySegmentName="seg_0" id="95C90A87-65EA-D3B2-244E-6BD7171C9220">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:25:14 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <sourcePk>A4C186BC-9EFA-701C-4043-BBC618A6D020</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

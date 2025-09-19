@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA0B513C-E023-F8FF-F6D3-3728696A438C" name="Pessoa">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:11:31 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Pes_nome" id="20DCE07F-A34F-E062-E66D-E67535C6346E">
+<Attribute name="Pes nome" id="20DCE07F-A34F-E062-E66D-E67535C6346E">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:11:42 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
@@ -28,10 +28,10 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Pes_idade" id="7C10B4E4-DE90-0B0F-4C11-282B909391FB">
+<Attribute name="Pes idade" id="7C10B4E4-DE90-0B0F-4C11-282B909391FB">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:11:54 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
@@ -40,10 +40,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Pes_endereco" id="A502CE60-1634-4667-ED75-2ABC3D6608F4">
+<Attribute name="Pes endereco" id="A502CE60-1634-4667-ED75-2ABC3D6608F4">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:12:09 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
@@ -53,14 +53,136 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="pes data nasc" id="4E0C2F62-0C83-9B63-D01E-1499A18E8B19">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>BB6E3A32-041B-E358-674D-88C34A644537</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes rua" id="2C37E397-D833-778E-CE14-419FDD4D46C4">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>6F1963A0-050F-89DE-738F-D90D2AA63C16</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes cidade" id="F581E5C8-4987-34C1-06E4-8102E1410BB6">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>2E5B2D61-375B-AC77-E221-FB91253D9170</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes bairro" id="31E08DFA-2F5A-8F35-E735-DAF981355A3F">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>46CDBE38-C35C-B268-CBB2-45FDC060D47B</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes cep" id="659B4460-416D-430D-E666-42BA912F8F2A">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>AE1CC3DF-12BE-C5F7-1FB6-5356F93E951E</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes UF" id="325A50B8-2056-E128-4DBD-6A3A721C3F63">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>DB9E976E-ADD8-750D-5B90-EA2880B17DD9</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes id" id="2802DB87-570B-4B16-1373-40255FDAC79D">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>1D0E12A8-15E8-6661-9035-94FAFF20B0BF</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes email" id="D30A4D32-87EC-87C0-1654-487299F069B3">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>759253BA-F4D7-661D-12F7-E81C57D303FB</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes telefone" id="8FEA114B-956E-8A8D-579E-A88C7D0D0AE2">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>1F60B5CD-475B-8ED6-533C-B9E7F7C56C0F</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes nome1" id="DD49B96F-C20A-4BA1-DA01-BCF57612CEAD">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:17:53 UTC</createdTime>
+<generatorID>253E4C74-0ECF-D6AE-58D8-DE4BEBF1A9F9</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F88B06A7-3983-1562-0560-AAFE6AD906B4" name="Pessoa PK">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:11:47 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

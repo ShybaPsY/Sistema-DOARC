@@ -13,15 +13,13 @@
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>20DCE07F-A34F-E062-E66D-E67535C6346E</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7455DC90-88C8-7250-9185-31E51E400E32" referredColumn="73EC0A21-8CBC-7101-E3E1-CA2927BAAD42"/>
-</associations>
 </Column>
 <Column name="Don_cod" id="DC4F193A-312E-2FC1-5477-489D00A08882">
 <createdBy>Aluno</createdBy>
@@ -35,6 +33,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Pessoa_pes_id" id="5CE32699-79F1-4A32-42C4-1C323C0E1A2B">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:02:07 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7455DC90-88C8-7250-9185-31E51E400E32" referredColumn="1D0E12A8-15E8-6661-9035-94FAFF20B0BF"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="39467808-2880-2EA8-A11B-8C30940D05E3" name="Donatario_PK">
@@ -42,6 +52,7 @@
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>F88B06A7-3983-1562-0560-AAFE6AD906B4</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -54,6 +65,7 @@
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>C2D4CE42-0EB1-CEEE-5BD3-B15E1F29D3B2</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -68,7 +80,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8E4E5963-3A79-2F80-62CE-C4E189A57D09"/>
+<colUsage columnID="5CE32699-79F1-4A32-42C4-1C323C0E1A2B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

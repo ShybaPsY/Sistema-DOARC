@@ -3,7 +3,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:06:25 UTC</createdTime>
 <generatorID>FD33687B-E3FA-9BFE-0839-707D1C543991</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
@@ -16,47 +16,56 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Com_id" id="AB120F2F-1A30-C8AC-6B67-ED60999591A6">
+<Attribute name="Com id" id="AB120F2F-1A30-C8AC-6B67-ED60999591A6">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:18:22 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="com_desc" id="4CDE1D4F-E62D-7A0A-5B99-16FE5A81C534">
+<Attribute name="com desc" id="4CDE1D4F-E62D-7A0A-5B99-16FE5A81C534">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:18:26 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COm_dataAquisicao" id="847DCCE8-D55A-7EBA-C991-D6CE972E99FF">
+<Attribute name="COm dataAquisicao" id="847DCCE8-D55A-7EBA-C991-D6CE972E99FF">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:18:32 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Doa_id" id="0E44AAD1-BC1F-E50B-2FC6-F900422BBCFA">
+<Attribute name="Doacao Doa id" id="0E44AAD1-BC1F-E50B-2FC6-F900422BBCFA">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-29 22:25:40 UTC</createdTime>
 <generatorID>5DD742AC-DD79-5C66-C943-C966BEBD3E48</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <referedAttribute>E903B121-FD7E-8ED4-587B-3609A0179BAE</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -64,7 +73,7 @@
 <identifier id="A4C186BC-9EFA-701C-4043-BBC618A6D020" name="Compra PK">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:18:25 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="false"/>

@@ -3,7 +3,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:06:25 UTC</createdTime>
 <generatorID>1DF09631-275C-B197-CBF1-7AC81B82B984</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
@@ -16,45 +16,53 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Est_id" id="99BAAF1A-54D5-04ED-32D3-2F7E48E6C48E">
+<Attribute name="Est id" id="99BAAF1A-54D5-04ED-32D3-2F7E48E6C48E">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:19:32 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Est_tipo" id="66CD21DD-14AD-E64E-1FB0-B5B25BB05D30">
+<Attribute name="Est tipo" id="66CD21DD-14AD-E64E-1FB0-B5B25BB05D30">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:19:44 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Est_quant" id="F1F29DEC-72C6-DF08-BFC3-F62088F059CB">
+<Attribute name="Est quant" id="F1F29DEC-72C6-DF08-BFC3-F62088F059CB">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:19:51 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Est_lista" id="94072DD3-BA1E-13D9-5B0C-3B8401E2E8A9">
+<Attribute name="Est lista" id="94072DD3-BA1E-13D9-5B0C-3B8401E2E8A9">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:19:56 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -62,7 +70,7 @@
 <identifier id="7DCFCA1D-1540-33ED-35B5-08E9ACB0C273" name="Estoque PK">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:19:43 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="false"/>

@@ -8,9 +8,100 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Pes_nome" id="73EC0A21-8CBC-7101-E3E1-CA2927BAAD42">
+<Column name="pes_id" id="1D0E12A8-15E8-6661-9035-94FAFF20B0BF">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<createdTime>2025-09-19 23:02:01 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pes_nome11" id="253E4C74-0ECF-D6AE-58D8-DE4BEBF1A9F9">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:17:06 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pes_data_nasc" id="BB6E3A32-041B-E358-674D-88C34A644537">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:01:18 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pes_rua" id="6F1963A0-050F-89DE-738F-D90D2AA63C16">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:01:52 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pes_cidade" id="2E5B2D61-375B-AC77-E221-FB91253D9170">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:01:52 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pes_bairro" id="46CDBE38-C35C-B268-CBB2-45FDC060D47B">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:01:52 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pes_cep" id="AE1CC3DF-12BE-C5F7-1FB6-5356F93E951E">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:01:52 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pes_UF" id="DB9E976E-ADD8-750D-5B90-EA2880B17DD9">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:01:52 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pes_email" id="759253BA-F4D7-661D-12F7-E81C57D303FB">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:02:39 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pes_telefone" id="1F60B5CD-475B-8ED6-533C-B9E7F7C56C0F">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:02:39 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pes_nome1" id="2CF437B0-5237-25F8-281D-B96DE040A71B">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
 <generatorID>20DCE07F-A34F-E062-E66D-E67535C6346E</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +111,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Pes_idade" id="D216ECDE-CEC5-BC4E-FB5C-3DE784620888">
+<Column name="Pes_idade" id="06190ECE-F093-62FB-18B1-46F19E46E2AD">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
 <generatorID>7C10B4E4-DE90-0B0F-4C11-282B909391FB</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +122,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Pes_endereco" id="80F875E2-B755-4A3E-D706-302FD6DF5EAE">
+<Column name="Pes_endereco" id="9BA7F091-D62A-40B2-D02B-46201EFB1244">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-08-29 22:27:44 UTC</createdTime>
+<createdTime>2025-09-19 23:18:07 UTC</createdTime>
 <generatorID>A502CE60-1634-4667-ED75-2ABC3D6608F4</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,11 +141,12 @@
 <createdTime>2025-08-29 22:27:44 UTC</createdTime>
 <generatorID>F88B06A7-3983-1562-0560-AAFE6AD906B4</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="73EC0A21-8CBC-7101-E3E1-CA2927BAAD42"/>
+<colUsage columnID="2CF437B0-5237-25F8-281D-B96DE040A71B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

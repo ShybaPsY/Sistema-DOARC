@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Log_id" id="3A58514C-E94D-3307-B884-12853AF2FF9E">
+<Attribute name="Log id" id="3A58514C-E94D-3307-B884-12853AF2FF9E">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:11:57 UTC</createdTime>
 <ownerDesignName>banco_de_dados</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Log_login" id="D2469E4B-E0DD-06D9-19CC-22F47F54427C">
+<Attribute name="Log login" id="D2469E4B-E0DD-06D9-19CC-22F47F54427C">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:12:17 UTC</createdTime>
 <ownerDesignName>banco_de_dados</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Log_senha" id="8D6BAD9B-0BA1-8BD7-6E52-5638FF14AE5B">
+<Attribute name="Log senha" id="8D6BAD9B-0BA1-8BD7-6E52-5638FF14AE5B">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:12:34 UTC</createdTime>
 <ownerDesignName>banco_de_dados</ownerDesignName>
@@ -52,10 +52,32 @@
 <dataTypeSize>12</dataTypeSize>
 <ownDataTypeParameters>12,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vol cod" id="7D5A31AB-2437-CD6D-A0C3-E004A5264EFC">
+<Attribute name="log nivel" id="CE74C71F-FE8F-E41B-53C3-347F29247839">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:13:16 UTC</createdTime>
-<generatorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</generatorID>
+<createdTime>2025-09-19 23:12:15 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="log status" id="2F29351D-FFFA-D66F-33A0-8054B0CD98E0">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:12:59 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vol cod" id="D04A6C16-FAB1-07B1-AF0D-FD2B9D8ABF7D">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:17:53 UTC</createdTime>
+<generatorID>00E15662-26CD-D3FF-4032-784AED8F0CD2</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
@@ -66,52 +88,33 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Camp_id" id="D4685D19-A74A-69DD-DB31-7FE12C6BED15">
+<Attribute name="Log id1" id="695BFB1C-C9E6-6706-DADC-BC4EAF82994F">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:13:16 UTC</createdTime>
-<generatorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</generatorID>
+<createdTime>2025-09-19 23:17:53 UTC</createdTime>
+<generatorID>00E15662-26CD-D3FF-4032-784AED8F0CD2</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<referedAttribute>739A8BF9-EE50-5E19-EABF-168BFBADF362</referedAttribute>
-<use>0</use>
+<referedAttribute>0A0A2DB1-A4CD-13E4-2FC8-B0BAFE49F478</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="doado_id" id="6728CC50-9A0F-31DD-FF7E-56EB23EC85D4">
+<Attribute name="Pes nome1" id="FD6B55E7-5B48-FAA7-2DDE-53D106C0AE6E">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:13:16 UTC</createdTime>
-<generatorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</generatorID>
+<createdTime>2025-09-19 23:18:01 UTC</createdTime>
+<generatorID>00E15662-26CD-D3FF-4032-784AED8F0CD2</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<referedAttribute>1DA6F450-0F97-7E8F-AA40-8A9BF5070E41</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Com_id" id="DDC12C25-02FF-EA75-44C2-CB78E25FEA09">
-<createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:13:16 UTC</createdTime>
-<generatorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</generatorID>
-<ownerDesignName>banco_de_dados</ownerDesignName>
-<engineerTo>
-<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
-</engineerTo>
-<referedAttribute>BE18210F-D42B-38C8-4F16-E651A4B64B5F</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Doa_id" id="60550C8F-470F-1E2A-1A37-7585EF4491AE">
-<createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:13:16 UTC</createdTime>
-<generatorID>C8834DB3-A709-0CF5-FDE8-3D38769D7B98</generatorID>
-<ownerDesignName>banco_de_dados</ownerDesignName>
-<engineerTo>
-<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
-</engineerTo>
-<referedAttribute>D4F765D3-A7ED-3526-E1E3-C720F64556E1</referedAttribute>
-<use>0</use>
+<referedAttribute>BA4E9B35-1E7D-8F28-B46C-DF7D7F8B537E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -120,8 +123,9 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:12:32 UTC</createdTime>
 <ownerDesignName>banco_de_dados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

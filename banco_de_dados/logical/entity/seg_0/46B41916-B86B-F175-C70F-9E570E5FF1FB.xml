@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="para_nome" id="6A7599B2-69D5-68BF-25D3-8B9692E74DE7">
+<Attribute name="para nome fantasia" id="6A7599B2-69D5-68BF-25D3-8B9692E74DE7">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:13:40 UTC</createdTime>
 <ownerDesignName>banco_de_dados</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="para_desc" id="C55260DD-D3B0-C64E-DD11-943BC9797479">
+<Attribute name="para razao social" id="C55260DD-D3B0-C64E-DD11-943BC9797479">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:13:49 UTC</createdTime>
 <ownerDesignName>banco_de_dados</ownerDesignName>
@@ -42,7 +42,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="para_endereco" id="5E76E582-ABC0-B1EA-CFC2-EE9FD711E478">
+<Attribute name="para endereco" id="5E76E582-ABC0-B1EA-CFC2-EE9FD711E478">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:14:32 UTC</createdTime>
 <ownerDesignName>banco_de_dados</ownerDesignName>
@@ -55,7 +55,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="para_info_gerais" id="AAE52625-00B4-272D-BCE2-3436074B4519">
+<Attribute name="para info gerais" id="AAE52625-00B4-272D-BCE2-3436074B4519">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:14:52 UTC</createdTime>
 <ownerDesignName>banco_de_dados</ownerDesignName>
@@ -67,6 +67,126 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para email" id="D32A6AC9-DE12-3867-DABD-0EB2CEA6A485">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>9C1E8C3D-5161-7648-E041-B62BB4C0B7AC</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para telefone" id="EAE4052B-A7E6-4881-8F7C-B425BDE9E2A3">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>B5D03822-983E-907B-4395-58E8310734CB</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para site" id="E5F1C9EF-B84F-CD89-0E72-E51CE96F4047">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>026F92D8-262A-E72A-47F8-0D333AE3F593</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para rua" id="0BC9E6CB-288F-26A6-A667-CF2ECE8DF462">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>117A0AB9-AC07-1012-E86F-FEEBDE939C7A</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para bairro" id="1244B7F9-3962-F254-81D5-77EF1E18FD3E">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>98241383-2871-21C4-FD64-6F0F3445F231</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para cidade" id="254B3A7C-8561-C948-8FC4-B6E87E423C1B">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>A21785D4-1731-128B-1CA5-CA397816D230</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para cep" id="962AAD7E-C5E6-B58D-932D-0A84D4914DD9">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>E54F375F-12F5-774F-E74A-0F3986924AB8</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para UF" id="18445E56-702E-065C-1E43-17EAD7678613">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>CB32648B-F260-CE5E-1C56-A79C86282A8F</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para logotipo grande" id="88C34826-B09A-0BFD-71B9-72524F903EF8">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>7CDF93FA-894E-DAF7-5C33-84352AC6B2E0</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="para logotipo pequeno" id="6F4B6252-26EA-349A-68FA-828E187AA71D">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:04:09 UTC</createdTime>
+<generatorID>BA8A439F-E458-26CF-E3BD-A3BC5C0EA1C7</generatorID>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

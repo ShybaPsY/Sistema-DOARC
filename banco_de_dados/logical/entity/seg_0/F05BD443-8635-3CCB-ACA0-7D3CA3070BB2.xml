@@ -3,7 +3,7 @@
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:06:25 UTC</createdTime>
 <generatorID>90284007-0B67-96E9-D9AE-9704621EE96D</generatorID>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
@@ -16,36 +16,43 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Cat_id" id="742707DD-A8E0-1C2E-70DB-0F817363D578">
+<Attribute name="Cat id" id="742707DD-A8E0-1C2E-70DB-0F817363D578">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:14:46 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cat_tipo" id="0766F34B-EB23-E39E-3011-94610029EADA">
+<Attribute name="Cat tipo" id="0766F34B-EB23-E39E-3011-94610029EADA">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:14:53 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cat_dataAquisicao" id="BC87B458-C323-7C1F-9679-B90486CB1FA3">
+<Attribute name="Cat dataAquisicao" id="BC87B458-C323-7C1F-9679-B90486CB1FA3">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:15:00 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -53,7 +60,7 @@
 <identifier id="B9C89945-7708-241D-E0CA-28FE712DFB88" name="Categoria PK">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-08-22 23:14:52 UTC</createdTime>
-<ownerDesignName>banco, fazer</ownerDesignName>
+<ownerDesignName>banco_de_dados</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="false"/>

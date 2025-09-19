@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="para_nome" id="2F3AAD64-4DAA-0DA8-88B2-DDC9CF794566">
+<Column name="para_nome_fantasia" id="2F3AAD64-4DAA-0DA8-88B2-DDC9CF794566">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:15:36 UTC</createdTime>
 <generatorID>6A7599B2-69D5-68BF-25D3-8B9692E74DE7</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="para_desc" id="727CFD90-59D0-4F91-05FD-BBB12F4BA3D1">
+<Column name="para_razao_social" id="727CFD90-59D0-4F91-05FD-BBB12F4BA3D1">
 <createdBy>Aluno</createdBy>
 <createdTime>2025-09-19 22:15:36 UTC</createdTime>
 <generatorID>C55260DD-D3B0-C64E-DD11-943BC9797479</generatorID>
@@ -55,6 +55,96 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_email" id="9C1E8C3D-5161-7648-E041-B62BB4C0B7AC">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:58:56 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_telefone" id="B5D03822-983E-907B-4395-58E8310734CB">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:58:56 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_site" id="026F92D8-262A-E72A-47F8-0D333AE3F593">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 22:59:09 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_rua" id="117A0AB9-AC07-1012-E86F-FEEBDE939C7A">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:00:37 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_bairro" id="98241383-2871-21C4-FD64-6F0F3445F231">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:00:37 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_cidade" id="A21785D4-1731-128B-1CA5-CA397816D230">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:00:37 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_cep" id="E54F375F-12F5-774F-E74A-0F3986924AB8">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:00:37 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_UF" id="CB32648B-F260-CE5E-1C56-A79C86282A8F">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:00:37 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_logotipo_grande" id="7CDF93FA-894E-DAF7-5C33-84352AC6B2E0">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:00:37 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="para_logotipo_pequeno" id="BA8A439F-E458-26CF-E3BD-A3BC5C0EA1C7">
+<createdBy>Aluno</createdBy>
+<createdTime>2025-09-19 23:00:37 UTC</createdTime>
+<ownerDesignName>banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

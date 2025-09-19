@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Voluntario HIgienizacaoRoupas FK" directorySegmentName="seg_0" id="2695CA09-9B25-684F-4F0E-7453B5DA4F32">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="7471B5AA-643A-B2D5-1A7A-1B0A5D4FFBB0">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-08-29 22:24:32 UTC</createdTime>
+<createdTime>2025-09-19 23:13:08 UTC</createdTime>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
-<useSurrogateKey>true</useSurrogateKey>
-<identifying>false</identifying>
+<sourcePk>8C7F41D7-BB2A-EEFE-1C12-D06DA6814B63</sourcePk>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>A826E079-9843-8120-268F-ABC9F779FCA9</sourceEntity>
+<sourceEntity>2C6D2C5F-9BAC-E149-5A1B-167880750777</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>1E6C4A0F-A706-F9C6-7857-6D3CB889FD88</targetEntity>
 <transferable>true</transferable>

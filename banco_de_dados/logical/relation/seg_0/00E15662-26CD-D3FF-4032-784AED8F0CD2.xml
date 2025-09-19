@@ -1,12 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="logiin" directorySegmentName="seg_0" id="C8834DB3-A709-0CF5-FDE8-3D38769D7B98">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Login_Voluntario_FK" directorySegmentName="seg_0" id="00E15662-26CD-D3FF-4032-784AED8F0CD2">
 <createdBy>Aluno</createdBy>
-<createdTime>2025-09-19 22:13:16 UTC</createdTime>
+<createdTime>2025-09-19 23:17:53 UTC</createdTime>
+<generatorID>778C77A9-0540-96DC-4EF1-F71B04615FC5</generatorID>
 <ownerDesignName>banco_de_dados</ownerDesignName>
 <engineerTo>
 <item key="C767488F-E5C9-47A7-5758-B340D6A639A3" value="true"/>
 </engineerTo>
 <sourcePk>3DB7BAD7-FF1E-6D2D-368D-AA457B47278C</sourcePk>
+<dominantRole>1E6C4A0F-A706-F9C6-7857-6D3CB889FD88</dominantRole>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
